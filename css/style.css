@@ -1,0 +1,258 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family:'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+#nameTag{
+    text-align: center;
+    font-size:11pt;
+    margin-top: 45px;
+    line-height: 1.8;
+}
+
+#genText{
+    text-align: center; 
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+
+/*SIDE BAR THINGS*/
+.container { 
+    position:relative; 
+    padding:0 0 0 0px; 
+
+}
+
+#sidebar {
+    position:absolute;
+    top:0; bottom:0; left:0;
+    width: 120px;
+    background-image: url(../Vimgs/bluePaisley.jpg);
+    -webkit-box-shadow: 5px 0 3px -2px #D8D8D8;
+        box-shadow: 5px 0 5px -2px #D8D8D8;
+    z-index: 10;
+    margin-right: 10px;
+}
+
+#header { border:1px solid #000; width:100%; height:430px; 
+    margin:0 0 5px 0;
+}
+#content { border:1px solid #000; width:100%; height:600px;
+    margin:5px 0 5px 0;
+}
+#footer { border:1px solid #000; width:100%; height:700px;
+    margin:5px 0 0 0;
+}
+
+/*END SIDE BAR THINGS*/
+
+
+
+#me{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../Vimgs/scarlett.jpg) no-repeat;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+/*FIRST ROLLY BOX*/
+
+#leadershipEx{
+    position: absolute;
+    background-color: gray;
+    color: blue;
+    font-size: 16pt;
+    text-align: center;
+    text-align: middle;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    margin-left: 15%;
+}
+
+
+.leadership {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+.leadership article {
+    border-bottom: 1px dashed #ddd;
+    line-height: 1.3;
+    background: #DCEAEB;
+    max-width: 520px;
+    font-size: 12pt;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    color: #333;
+    height: 350px;
+    -webkit-box-shadow: 5px 0 3px -2px #D8D8D8;
+        box-shadow: 5px 0 5px -2px #D8D8D8;
+}
+
+.leadership article em {
+    font-style: normal;
+    font-size: 10pt;
+    padding: 10px;
+    color: #666;
+}
+
+.leadership article li{
+    margin: 10px;
+    font-size: 10pt;
+}
+
+/*SECOND ROLLY BOX*/
+
+#workHistory{
+    position: absolute;
+    background-color: gray;
+    color: green;
+    font-size: 16pt;
+    text-align: center;
+    text-align: middle;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    margin-left: 60%;
+}
+
+
+.work{
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    margin-left: 60%;
+    margin-top: 30px;
+
+}
+
+.work article {
+    border-bottom: 1px dashed #ddd;
+    line-height: 1.3;
+    background: #DCEAEB;
+    font-size: 12pt;
+    max-width: 520px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    color: #333;
+    height: 350px;
+    -webkit-box-shadow: 5px 0 3px -2px #D8D8D8;
+        box-shadow: 5px 0 5px -2px #D8D8D8;
+}
+
+.work article em {
+    font-style: normal;
+    padding: 10px;
+    font-size: 10pt;
+    color: #666;
+}
+
+.work article li{
+    margin: 10px;
+    font-size: 10pt;
+}
+
+
+/*TAB THINGS*/
+#allTabThings{
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 60px;
+
+}
+
+#mtabs_wrapper {
+    width: 422px;
+
+}
+#mtabs_container {
+    border-bottom: 1px solid #ccc;
+}
+#mtabs {
+    list-style: none;
+    padding: 5px 0 4px 0;
+    margin: 0 0 0px 0px;
+    font: 0.75em arial; /*was commented out*/
+}
+#mtabs li {
+    display: inline;
+}
+#mtabs li a {
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    text-decoration: none;
+    color:#000;
+    font-family: Artifika, serif; 
+    background-color: #eeeeee;
+    font-size:14px;
+    border-bottom: 1px solid #ccc; /*this and one below were commented out*/
+    outline: none;
+    /*border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;*/
+}
+#mtabs li a:hover {
+    background-color: #dddddd;
+    padding: 4px 6px;
+}
+#mtabs li.active a {
+    background-color: #fff;
+    padding: 4px 6px 5px 6px;
+    border-bottom: none; /*was commented out*/
+}
+#mtabs li.active a:hover {
+    background-color: #eeeeee;
+    padding: 4px 6px 5px 6px;
+    border-bottom: none;/*was commented out*/
+    vertical-align: middle;
+
+}
+
+#mtabs li a.icon_accept {
+    background-image: url(accept.png);
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding-left: 24px;
+}
+#mtabs li a.icon_accept:hover {
+    padding-left: 24px;
+}
+
+#mtabs_content_container {
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    width: 600px;
+    height:450px;
+    margin-top: -12.52px;
+    z-index: -1;
+}
+.mtab_content {
+    display: none;
+}
+
+/* TAB THINGS END */
+
+
+
+
+

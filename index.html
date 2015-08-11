@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adena Bauer</title>
+        <link rel="shortcut icon" href="../imgs/blueFlower.ico" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <link href="http://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="scripts/tabs.js"></script>
+
+
+    </head>
+    <body>
+    	<!--<div id="heading"></div>-->
+
+    	<div class="container">
+    		
+    		<!--SIDE BAR-->
+    		<div id="sidebar">
+
+    			<!--PICTURE OF ME-->
+    			<div id="me"></div>
+    			
+    		</div>
+
+    		<!--HEADER-->
+    		<div id="header">
+    			<div id="nameTag">
+    				<span style="color:pink; font-size:18pt;">Adena Bauer</span><br><br>
+    				<span style="font-size:12pt;"> Computer Science &amp Business</span><br>
+    				Viterbi School of Engineering at USC<br>
+    				Graduating May 2017
+
+    			</div><br>
+    			<div id="genText">
+    				Understanding the worth of being a valued team member has been my most insightful revelation of college thus far. You can derive value from anywhere - knowlege, skill, boldness, experience, social finesse - but really, having value means that others are more motivated, excited, efficient and collaboritive in your company. Value is being the person who your peers want on their teams.
+    			</div> 
+    			
+    		</div>
+
+    		<!--MAIN CONTENT-->
+
+    		<div id="content">
+
+    			<!--FIRST ROLLY BOX-->
+
+    			<div id="leadershipEx">Leadership Experience</div><!--END OF LEADERSHIPEX-->
+        		<section class="leadership"></section>
+       			<script src="scripts/foldscroll.js"></script>
+        		<script src="scripts/leadership.js"></script>
+        		<script type="text/javascript">
+
+            		$(function() {
+
+               			var limit = 15;
+                		var $container = $( '.leadership' );
+
+                		// Populate
+                		for ( var i = 0, n = Math.min( limit, leadership.length ); i < n; i++ ) {
+
+                   		$container.append(
+                        	'<article>' +
+                            '<p>' + leadership[i].company + '</p>' +
+                            '<em>' + leadership[i].job + '</em>' +
+                            '<p>' + leadership[i].descrip + '</p>' +
+                        	'</article>');
+                		}
+
+                		// Call the foldscroll plugin
+                		$container.foldscroll({
+                    		perspective: 900,
+                    		margin: '220px'
+                		});
+            		});
+
+       			</script>
+
+       			<!--SECOND ROLLY BOX-->
+       			<div id="workHistory">Work History</div><!--END OF LEADERSHIPEX-->
+        		<section class="work"></section>
+       			<script src="scripts/foldscroll.js"></script>
+        		<script src="scripts/work.js"></script>
+        		<script type="text/javascript">
+
+            		$(function() {
+
+               			var limit = 15;
+                		var $container = $( '.work' );
+
+                		// Populate
+                		for ( var i = 0, n = Math.min( limit, work.length ); i < n; i++ ) {
+
+                   		$container.append(
+                        	'<article>' +
+                            '<p>' + work[i].company + '</p>' +
+                            '<em>' + work[i].job + '</em>' +
+                            '<p>' + work[i].descrip + '</p>' +
+                        	'</article>');
+                		}
+
+                		// Call the foldscroll plugin
+                		$container.foldscroll({
+                    		perspective: 900,
+                    		margin: '220px'
+                		});
+            		});
+
+       			</script>
+    			
+    		</div>
+
+    		<!--TABS START-->
+	    	<div id="allTabThings">	
+	    		<div id="mtabs">
+	    			<ul>
+	    				<li class="active"><a href="#tab1" rel="tab1">Toolbox</a></li>
+	        			<li><a href="#tab2" rel="tab2">Relevant Courses</a></li>
+	        			<!--<li><a href="#tab3" rel="tab3">Projects</a></li> PROJECT TAB SHOULD COME SOON!!! -->
+	        			<li><a href="#tab4" rel="tab4">Just for Fun</a></li>
+	    			</ul>
+				</div>
+
+				<div id="mtabs_content_container">
+	    			<div id="tab1" class="mtab_content" style="display: block;">
+	      				<p>
+	      					My Toolbox
+	      					<ul>
+	      						<li>Programming Languages: </li>
+	      							<ul>
+	      								<li>C++, QT, STL</li>
+	      								<li>Java, Java Swing</li>
+	      								<li>HTML, CSS</li>
+	      								<li>JavaScript, JQuery</li>
+	      								<li>PowerShell</li>	
+	      							</ul>
+	      							<br>
+	      						<li>Technologies: </li>
+	      							<ul>
+	      								<li>Amazon Web Services (AWS)</li>
+	      								<li>Microsoft Excel, Microsoft Office</li>
+	      								<li>Linux, MS-DOS</li>
+	      								<li>Familar with HTTP</li>
+	      							</ul>
+	      							<br>
+	      						<li>Other: </li>
+	      							<ul>
+	      								<li>Launguages: English, Spanish</li>
+	      								<li>Event Planning: Organization, Budgeting, Logisitics</li>
+	      							</ul>		
+	      					</ul>
+	      								<!--JSwing (a guy library), multithreaded programming, networked programming, HTTP, and JSon are all taught-->	
+	      				</p>
+	    			</div>
+	    			<div id="tab2" class="mtab_content">
+	        			<p>
+	        				Relevant completed and in process courses as of Fall, 2015:
+	        				<ul>
+	        					<li>Computer Science:</li>
+	        						<ul>
+	        							<li>Data Structures and Object Oriented Design (CSCI 104)</li>
+	        							<li>Discrete Methods in Computer Science (CSCI 170)</li>
+	        							<li>Introduction to Algorithms and Theory of Computing (CSCI 270)</li>
+	        							<li>Principles of Software Developement (CSCI 201)</li>
+
+	        						</ul>
+	        						<br>
+	        					<li>Business:</li>
+	        						<ul>
+	        							<li>Applied Business Statistics (BUAD 310)</li>
+	        							<li>Accounting Fundamentals, Financial + Managerial (BUAD 285)</li>
+	        							<li>Micro and Macro Economics (ECON 351/352)</li>
+	        							<li>Business Finance (BUAD 306)</li>
+	        							<li>Marketing Fundamentals (BUAD 307)</li>
+	        						</ul>
+	        						<br>
+	        					<li>Other:</li>	
+	        						<ul>
+	        							<li>Linear Alegebra and Linear Differential Equations (MATH 225)</li>
+	        							<li>Web Publishing (ITP 104)</li>
+	        							<li>Managing a Small Business on the Internet (DSO 462)</li>
+
+	        						</ul>	
+	        				</ul>
+	        			</p>
+	   				</div>
+	   				<!-- PROJECT TAB. THIS SHOULD COME SOON!! 
+	   				<div id="tab3" class="mtab_content">
+	        			<p>Tab content 3</p>
+	    			</div>
+	    			-->
+
+					<div id="tab4" class="mtab_content">
+	  					<p>
+	  					About me!
+	  						<ul>
+	  							<li>Background: </li>
+	  								<ul>
+	  									<li>Born and Raised in the beautiful San Francisco Bay Area</li>
+	  									<li>My two brilliant, wonderful sisters are my best friends</li>
+	  									<li>My amazing parents are living the fast paced startup life in Chicago </li>
+	  								</ul>
+	  								<br>
+	  							<li>A Few of My Favorite Things: </li>
+	  								<ul>
+	  									<li>Cooking (favorite recipe: Mom's banana bread!)</li>
+	  									<li>Aimless walking in new cities</li>
+	  									<li>Skiing with Dad and Sis</li>
+	  								</ul>
+	  						</ul>		
+	  					</p>
+	  					<img src="../imgs/raz1.jpg" style="margin:5px; float:right; width:200px; height:150px;">
+	    			</div>
+
+				</div>
+			<!-- TABS END -->
+			</div>	
+
+    		<!--FOOTER-->
+    		<div id="footer">
+    			
+    		</div>
+
+		</div>
+    </body>
+</html>
