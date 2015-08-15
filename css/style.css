@@ -14,7 +14,6 @@ html, body {
 #nameTag{
     text-align: center;
     font-size:11pt;
-    margin-top: 45px;
     line-height: 1.8;
 }
 
@@ -39,21 +38,21 @@ html, body {
     position:absolute;
     top:0; bottom:0; left:0;
     width: 120px;
-    background-image: url(../Vimgs/bluePaisley.jpg);
+    background-image: url(../imgs/bluePaisley.jpg);
     -webkit-box-shadow: 5px 0 3px -2px #D8D8D8;
         box-shadow: 5px 0 5px -2px #D8D8D8;
     z-index: 10;
     margin-right: 10px;
 }
 
-#header { border:1px solid #000; width:100%; height:430px; 
-    margin:0 0 5px 0;
+#header { /*border:1px solid #000;*/  width:100%; height:430px; 
+    margin:0 0 0 0;
 }
-#content { border:1px solid #000; width:100%; height:600px;
-    margin:5px 0 5px 0;
+#content { /*border:1px solid #000;*/ width:100%; height:600px;
+    margin:0px 0 5px 0;
 }
-#footer { border:1px solid #000; width:100%; height:700px;
-    margin:5px 0 0 0;
+#footer { /*border:1px solid #000;*/ width:100%; height:700px;
+    margin:0px 0 0 0;
 }
 
 /*END SIDE BAR THINGS*/
@@ -67,22 +66,22 @@ html, body {
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
-    background: url(../Vimgs/scarlett.jpg) no-repeat;
+    background: url(../imgs/adenaPic2.png) no-repeat;
     margin-left: 5px;
     margin-top: 20px;
+
 }
 
 /*FIRST ROLLY BOX*/
 
 #leadershipEx{
     position: absolute;
-    background-color: gray;
-    color: blue;
+    color: #2B15A1;
     font-size: 16pt;
     text-align: center;
     text-align: middle;
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 
@@ -90,8 +89,8 @@ html, body {
     position: absolute;
     width: 40%;
     height: 35%;
-    margin-left: 15%;
-    margin-top: 30px;
+    margin-left: 12%;
+    margin-top: 60px;
 }
 
 .leadership article {
@@ -124,8 +123,7 @@ html, body {
 
 #workHistory{
     position: absolute;
-    background-color: gray;
-    color: green;
+    color: #2B15A1;
     font-size: 16pt;
     text-align: center;
     text-align: middle;
@@ -139,7 +137,7 @@ html, body {
     width: 40%;
     height: 35%;
     margin-left: 60%;
-    margin-top: 30px;
+    margin-top: 60px;
 
 }
 
