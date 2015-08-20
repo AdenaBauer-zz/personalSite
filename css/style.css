@@ -10,46 +10,50 @@ html, body {
     padding: 0;
     margin: 0;
 }
-/*
-.vertLine
-{
-   width: 1px;
-   background-color: red;
-   Vheight: 100%; /* or height in PX */
-} */
+
+
+#header{
+    position: relative;
+    margin-left: 399px;
+}
 
 #nameTag{
-    position: fixed;
-    text-align: center;
-    font-size:11pt;
-    line-height: 1.8;
-    float: left;
+    position: relative;
+    padding-top: 15px;
     width: 400px;
+    height: 150px;
+    background-color: #E56349;
+    color: white;
+    text-align: center;
+    font-size:12pt;
 }
 
 #genText{
-    position: fixed;
+    position: relative;
     float:left;
-    width: 400px;
+    font-size: 12pt;
+    background-color: #84B7B0;
+    color: white;
+    width: 550px;
+    height: 150px;
     left: 0;
-    margin-top: 400px
+    margin-top: -1px;
+    margin-left: 202px;
+    padding-left: 10px; padding-right: 10px; padding-top: 15px; padding-bottom: 5px;
 }
 
 #me{
-    position: fixed;
-    float: left;
-    width: 250px;
-    height: 306px;
-    border: #6ECDE5 solid 3px;
+    position: relative;
+    width: 206px;
+    height: 155px;
+    border: #84B7B0 solid 3px;
     /*
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;*/
-    background: url(../imgs/adena.jpg) no-repeat;
-    boar
-    background-color: green;
-    margin-left: 0px;
-    margin-top: 0px;
+    background: url(../imgs/adena2.jpg) no-repeat;
+    margin-top: 149px;
+
     z-index: 200;
 
 }
@@ -74,12 +78,6 @@ html, body {
 }
 
 */
-
-#header { 
-    float:left;
-
-}
-
 
 
 
@@ -264,7 +262,7 @@ html, body {
 /*image case*/
 
 #imageCase{
-    float: right;
+    float: left;
     width: 399px;
     position: relative;
     margin-top: 0px;
@@ -274,7 +272,7 @@ html, body {
     padding-left: 5px;
     padding-right: 5px;
     float:right;
-    background-color: #6ECDE5;
+    background-color: #8CD8D2;
     width: 200px;
     height: 150px;
     text-align: center;
@@ -286,9 +284,8 @@ html, body {
 }
 
 .imageSection:hover{
-    background-color: #F58843;
+    background-color: #E56349;
     color: white;
-
 
 }
 
@@ -317,5 +314,9 @@ html, body {
 
 /*end image case*/
 
+#draw{
+    background-color: pink;
+    float:right;
+}
 
 
