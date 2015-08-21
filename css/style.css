@@ -314,9 +314,16 @@ html, body {
 
 /*end image case*/
 
-#draw{
-    background-color: pink;
+#demo{
+    -ms-transform: rotate(-30); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari */
+    transform: rotate(-30deg);
+
+    position: absolute;
     float:right;
+    margin-top: -60px;
+    margin-left: 320px;
+    z-index: 600;
 }
 
 
