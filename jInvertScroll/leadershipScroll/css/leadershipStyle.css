@@ -52,3 +52,17 @@ h1
   z-index: 1000;
   width: 6000px;
 }
+
+#testDiv{
+  background-color: #F9EBC7;
+  width: 400px;
+  height: 200px;
+  margin-left: 100px;
+  margin-bottom: 400px;
+  position: fixed;
+}
+
+
+#secondTestDiV{
+
+}
